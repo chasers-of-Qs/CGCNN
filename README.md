@@ -7,3 +7,5 @@ In `SelfAttention and CGCNN.py`, we use SelfAttention first and then CGCNN.
 In `SelfAttention or CGCNN.py`, we choose one of SelfAttention and CGCNN to use.
 
 In `mainML.py`, we use traditional machine learning methods for training.
+
+We recorded the results in `RESULT.xls`.

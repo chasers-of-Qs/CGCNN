@@ -19,6 +19,7 @@ The following paper describes the details of the CGCNN framework:
   - [Define a customized dataset](#define-a-customized-dataset)
   - [Train a CGCNN model](#train-a-cgcnn-model)
   - [Predict material properties with a pre-trained CGCNN model](#predict-material-properties-with-a-pre-trained-cgcnn-model)
+- [Others](#others)
 - [Data](#data)
 - [Authors](#authors)
 - [License](#license)
@@ -183,6 +184,14 @@ After predicting, you will get one file in `cgcnn` directory:
 
 - `test_results.csv`: stores the `ID`, target value, and predicted value for each crystal in test set. Here the target value is just any number that you set while defining the dataset in `id_prop.csv`, which is not important.
 
+## Others
+
+In `SelfAttention and CGCNN.py`, we use SelfAttention first and then CGCNN.
+
+In `SelfAttention or CGCNN.py`, we choose one of SelfAttention and CGCNN to use.
+
+In `mainML.py`, we use traditional machine learning methods for training.
+
 ## Data
 
 To reproduce our paper, you can download the corresponding datasets following the [instruction](data/material-data).
@@ -194,5 +203,3 @@ This software was primarily written by [Tian Xie](http://txie.me) who was advise
 ## License
 
 CGCNN is released under the MIT License.
-
-
